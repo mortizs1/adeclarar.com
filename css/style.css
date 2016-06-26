@@ -119,6 +119,13 @@ table{
   padding: 20px;
 }
 
+
+.container1 #documentos ol, ul, p, li{
+  line-height: 2;
+  font-size: 18px;
+  text-align: justify;
+}
+
 .container2 h1{
   text-align: center;
 }
