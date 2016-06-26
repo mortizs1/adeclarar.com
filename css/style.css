@@ -1,3 +1,5 @@
+*{ box-sizing: border-box;}
+
 html{
   font-family: 'Roboto', Arial sans-serif;
 }
@@ -6,9 +8,15 @@ html{
   margin-left: 5px;;
 }
 
+.navbar-inverse{
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  border-color: none !important;
+  position: fixed;
+}
+
 .container img{
   width: 27%;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 
@@ -18,9 +26,12 @@ html{
 }
 
 .home-wrapper{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/background.jpeg') no-repeat center top;
+  font-family: 'Roboto', Arial sans-serif;
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background.jpeg') no-repeat center top;
   background-size: cover;
   color: #ffffff;
+  background-attachment: fixed;
 }
 
 #home h1{
@@ -33,19 +44,13 @@ html{
 
 #home .divider{
   width: 80px;
-  border-top: 5px solid #168b8b;
+  border-top: 5px solid #2dc360;
   margin: 0 auto;
 }
 
 #home p{
-  font-size: 24px;
+  font-size: 30px;
   margin-top: 40px;
-}
-
-#home .social{
-  text-align: center;
-  vertical-align: middle;
-  line-height: 90px;
 }
 
 #home .social{
@@ -92,4 +97,36 @@ html{
 #home .googleplus:hover {
   background-color: rgb(227, 35, 35);
   cursor: pointer;
+}
+
+.container1 h2{
+  font-size: 25px;
+  text-align: center;
+}
+
+.container1{
+  background: whitesmoke;
+  background-size: cover;
+  color: rgb(80, 80, 80);
+  text-align: justify;
+}
+
+table{
+  text-align: center;
+  padding: 20px;
+}
+
+.container2 h1{
+  text-align: center;
+}
+
+.container2 h2{
+  font-size: 25px;
+}
+
+.container2{
+  background: white;
+  background-size: cover;
+  color: rgb(80, 80, 80);
+  text-align: justify;
 }
