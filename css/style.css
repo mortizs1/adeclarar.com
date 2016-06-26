@@ -16,7 +16,7 @@ html{
 
 .container img{
   width: 27%;
-  margin-top: 80px;
+  margin: 80px;
 }
 
 
@@ -100,12 +100,15 @@ html{
 }
 
 .container1 h2{
-  font-size: 25px;
+  text-align: center;
+}
+
+.container1 .parrafo{
   text-align: center;
 }
 
 .container1{
-  background: whitesmoke;
+  background: white;
   background-size: cover;
   color: rgb(80, 80, 80);
   text-align: justify;
@@ -125,7 +128,7 @@ table{
 }
 
 .container2{
-  background: white;
+  background: whitesmoke;
   background-size: cover;
   color: rgb(80, 80, 80);
   text-align: justify;
