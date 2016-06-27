@@ -8,15 +8,22 @@ html{
   margin-left: 5px;;
 }
 
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  background: none !important;
+
+}
+
 .navbar-inverse{
-  background-color: rgba(0, 0, 0, 0.8) !important;
+  background-color: rgba(#2d504f, 1) !important;
   border-color: none !important;
   position: fixed;
+  padding-left: 20%;
 }
 
 .container img{
-  width: 27%;
-  margin-top: 70px;
+  width: 50%;
+  margin-top: 0.3%;
 }
 
 .container p{
@@ -107,8 +114,9 @@ html{
   text-align: center;
 }
 
-.container1 .parrafo{
+.container1 p{
   text-align: center;
+  display: inline-block;
 }
 
 .container1{
@@ -118,9 +126,10 @@ html{
   text-align: justify;
 }
 
-table{
+.container1 table{
   text-align: center;
   padding: 20px;
+  border: 2px solid rgb(219, 219, 219);
 }
 
 
@@ -130,22 +139,83 @@ table{
   text-align: justify;
 }
 
+
 .container1 img{
   width:1000px;
-  height:700px; 
+  height:1000px;
+  padding: 60px;
+  attachment: fixed;
 }
 
-.container2 h1{
+
+@media(max-width: 800px) {
+    .container1 img{
+      width: 500px;
+      height: 500px;
+    }
+}
+
+
+
+.container2 h3{
+  margin-bottom: 20px;
   text-align: center;
 }
 
-.container2 h2{
-  font-size: 25px;
+.container2 p{
+  text-align: center;
+  display: inline-block;
 }
+
 
 .container2{
   background: whitesmoke;
   background-size: cover;
   color: rgb(80, 80, 80);
   text-align: justify;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.container2 img{
+  width: 18%;
+  text-align: center;
+  display: inline-block;
+  margin-left: 40%;
+}
+.container3{
+    background: white;
+    background-size: cover;
+    color: rgb(80, 80, 80);
+    text-align: center;
+    display: inline-block;
+}
+
+
+.container3 h2{
+  margin-top: 40px;
+  padding: 2%;
+  color: #8e8e8e;
+}
+
+
+.container3 p{
+
+    color: rgb(80, 80, 80);
+    text-align: center;
+    display: inline-block;
+    padding: 2%;
+}
+
+
+
+
+
+.container5{
+    background:  url('../images/contacto.png') no-repeat center top;
+    background-size: cover;
+}
+
+footer{
+  background-color: rgb(5, 119, 112);
 }
