@@ -14,36 +14,40 @@
     <div class="home-wrapper">
       <header>
         <div class="container">
-          <img src="images/adeclararlogo.png" alt="logo adeclarar">
-
+          <div class="menuu">
             <nav class="navbar navbar-inverse navbar-fixed-top"> <!--menu-->
               <div class="container">
                 <ul class="nav navbar-nav">
-                  <li><img src="images/adeclararlogo.png" alt="logo adeclarar"></li>
-                  <li><a href="#home">HOME</a></li>
+                  <li id="logo"><img src="images/hola.png" alt="logo adeclarar"></li>
+                  <li><a href="#home">home</a></li>
                   <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">¿EN QUE CONSISTE?<span class="caret"></span></a>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Consiste en<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                      <li><a href="#requsitos">Requesitos para estar obligado a declarar</a></li>
-                      <li><a href="#calendario">Calendario de vencimientos</a></li>
-                      <li><a href="#documentos">Documentos necesarios</a></li>
-                      <li><a href="#instructivo">Instrucctivo</a></li>
+                      <div class="submenu">
+                        <li><a href="#requsitos">Requesitos para estar obligado a declarar</a></li>
+                        <li><a href="#calendario">Calendario de vencimientos</a></li>
+                        <li><a href="#documentos">Documentos necesarios</a></li>
+                        <li><a href="#instructivo">Instrucctivo</a></li>
+                      </div>
                     </ul>
                   </li>
                   <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">SERVICIOS<span class="caret"></span></a>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Servicios<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                      <li><a href="#asesoria">Asesoria y elaboración de la declaración de renta</a></li>
-                      <li><a href="#atencion">Atención de requerimientos DIAN</a></li>
-                      <li><a href="#reclamacion">Reclamación de saldos a favor DIAN</a></li>
+                      <div  class="submenu">
+                        <li><a href="#asesoria">Asesoria y elaboración de la declaración de renta</a></li>
+                        <li><a href="#atencion">Atención de requerimientos DIAN</a></li>
+                        <li><a href="#reclamacion">Reclamación de saldos a favor DIAN</a></li>
+                      </div>
                     </ul>
                   </li>
-                  <li><a href="#procedimiento">PROCEDIMIENTO</a></li>
-                  <li><a href="#contacto">CONTACTO</a></li>
-                  <li><a href="#preguntas">PREGUNTAS FRECUENTES</a></li>
+                  <li><a href="#procedimiento">Procedimiento</a></li>
+                  <li><a href="#contacto">Contacto</a></li>
+                  <li><a href="#preguntas">Preguntas frecuentes</a></li>
                 </ul>
               </div>
             </nav>
+          </div>
         </div>
       </header>
 
@@ -299,27 +303,29 @@
               <div class="row">
                 <div class="col-sm-12">
                   <p>Personas naturales.</p>
-                  <ol>
-                   <li>Inscripción en el RUT (Registro Único Tributario) en la Dian, sin este no es posible presentar la declaración de Renta.</li>
-                   <li>Copia del certificado de ingresos y retenciones, expedido por la empresa donde labora, con corte al 31 de diciembre del 2015.</li>
-                   <li>Copia de la declaración de renta del año inmediatamente anterior, si declaró.</li>
-                   <li>Si es servidor público, copia de la declaración juramentada de bienes y rentas del 2015.</li>
-                   <li>Extractos bancarios de cuentas de ahorro, cuentas corrientes y tarjetas de crédito, al 31 de Diciembre de 2015.</li>
-                   <li>Extractos de ahorros en fondos de empleados, cooperativas u otros al corte al 31 de Diciembre de 2015.</li>
-                   <li>Extractos de fiducia (Si tiene compra de apartamento sobre planos), CDT, acciones o algún otro tipo de título valor representativo.</li>
-                   <li>Si tiene inmuebles a su nombre, anexar copia del impuesto predial y el valor comercial de este (si es diferente al del predial), considere mejoras y valorizaciones.</li>
-                   <li>Valor comercial de otros bienes como locales, vehículos, fincas, terrenos, marcas, patentes, artes, etc.</li>
-                   <li>Ingresos recibidos por Intereses o rendimientos financieros.</li>
-                   <li>Ingresos recibidos por arrendamientos u honorarios.</li>
-                   <li>Extracto de saldo de las deudas de créditos de consumo, tarjetas de crédito, créditos de fondos de empleados o cooperativas u otros, al 31 de Diciembre de 2015.</li>
-                   <li>Pago de intereses de créditos de vivienda.</li>
-                   <li>Aportes voluntarios a pensiones o ahorros en cuentas AFC.</li>
-                   <li>Pagos realizados a salud pre-pagada, pólizas de salud.</li>
-                   <li>Pagos realizados al gravamen de movimientos financieros GMF.</li>
-                   <li>Aportes obligatorios de un empleado del servicio doméstico, anexar documento especificando valor.</li>
-                   <li>Si compró o vendió durante el año, algún tipo de inmueble o activo fijo, indique el tipo y valor del negocio, y la retención en la fuente practicada.</li>
-                   <li>Si realizó donaciones, especificarlas.</li>
-                  </ol>
+                  <div class="necesario">
+                    <ol>
+                     <li>Inscripción en el RUT (Registro Único Tributario) en la Dian, sin este no es posible presentar la declaración de Renta.</li>
+                     <li>Copia del certificado de ingresos y retenciones, expedido por la empresa donde labora, con corte al 31 de diciembre del 2015.</li>
+                     <li>Copia de la declaración de renta del año inmediatamente anterior, si declaró.</li>
+                     <li>Si es servidor público, copia de la declaración juramentada de bienes y rentas del 2015.</li>
+                     <li>Extractos bancarios de cuentas de ahorro, cuentas corrientes y tarjetas de crédito, al 31 de Diciembre de 2015.</li>
+                     <li>Extractos de ahorros en fondos de empleados, cooperativas u otros al corte al 31 de Diciembre de 2015.</li>
+                     <li>Extractos de fiducia (Si tiene compra de apartamento sobre planos), CDT, acciones o algún otro tipo de título valor representativo.</li>
+                     <li>Si tiene inmuebles a su nombre, anexar copia del impuesto predial y el valor comercial de este (si es diferente al del predial), considere mejoras y valorizaciones.</li>
+                     <li>Valor comercial de otros bienes como locales, vehículos, fincas, terrenos, marcas, patentes, artes, etc.</li>
+                     <li>Ingresos recibidos por Intereses o rendimientos financieros.</li>
+                     <li>Ingresos recibidos por arrendamientos u honorarios.</li>
+                     <li>Extracto de saldo de las deudas de créditos de consumo, tarjetas de crédito, créditos de fondos de empleados o cooperativas u otros, al 31 de Diciembre de 2015.</li>
+                     <li>Pago de intereses de créditos de vivienda.</li>
+                     <li>Aportes voluntarios a pensiones o ahorros en cuentas AFC.</li>
+                     <li>Pagos realizados a salud pre-pagada, pólizas de salud.</li>
+                     <li>Pagos realizados al gravamen de movimientos financieros GMF.</li>
+                     <li>Aportes obligatorios de un empleado del servicio doméstico, anexar documento especificando valor.</li>
+                     <li>Si compró o vendió durante el año, algún tipo de inmueble o activo fijo, indique el tipo y valor del negocio, y la retención en la fuente practicada.</li>
+                     <li>Si realizó donaciones, especificarlas.</li>
+                    </ol>
+                  </div>
                    <br>
                    <p>Recordar que el impuesto de ganancia ocasional para personas naturales es del 10% (Art 107). Y muy seguramente usted seguirá siendo sujeto de declaración por los años siguientes.
                    Una vez realizada la declaración de renta, se entregan 2 ejemplares, se firman y se presentan en cualquier entidad financiera conjuntamente con el RUT y el valor a pagar si hay lugar a ello.</p>
