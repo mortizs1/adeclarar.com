@@ -4,6 +4,38 @@ html{
   font-family: 'Roboto', Arial sans-serif;
 }
 
+
+
+
+header {
+	width: 100%;
+	padding: 15px 0;
+	position: fixed;
+	background-color: rgba(48, 48, 48, 1);
+}
+
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header nav a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 10px;
+	padding: 10px 15px;
+	font-size: 18px;
+}
+
+header nav a.active {
+	background: #20708a;
+	border-radius: 5px;
+}
+
+
+
 .navbar-header{
   margin-left: 5px;;
 }
@@ -11,7 +43,6 @@ html{
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
   background: none !important;
-
 }
 
 .navbar-inverse{
@@ -20,13 +51,12 @@ html{
   position: fixed;
 }
 
-
 .container .menuu li {
   width: 14%;
   text-align: center;
   display: inline-block;
   margin-top: 10px;
-  
+
 }
 
 .navbar-inverse{
@@ -36,7 +66,6 @@ html{
 .container #logo img{
   width:100%;
   margin-top: 15px;
-  he
 }
 
 
@@ -151,29 +180,11 @@ html{
   border: 2px solid rgb(219, 219, 219);
 }
 
-
 .container1 #documentos ol, ul, p, li{
   line-height: 2;
   font-size: 18px;
   text-align: justify;
 }
-
-
-.container1 img{
-  width:1000px;
-  height:1000px;
-  padding: 60px;
-  attachment: fixed;
-}
-
-
-@media(max-width: 800px) {
-    .container1 img{
-      width: 500px;
-      height: 500px;
-    }
-}
-
 
 .container2 h1{
   text-align: center;
@@ -190,7 +201,6 @@ html{
   text-align: center;
   display: inline-block;
 }
-
 
 .container2{
   background: whitesmoke;
@@ -215,25 +225,18 @@ html{
     display: inline-block;
 }
 
-
 .container3 h2{
   margin-top: 40px;
   padding: 2%;
   color: #8e8e8e;
 }
 
-
 .container3 p{
-
     color: rgb(80, 80, 80);
     text-align: center;
     display: inline-block;
     padding: 2%;
 }
-
-
-
-
 
 .container5{
     background:  url('../images/contacto.png') no-repeat center top;
