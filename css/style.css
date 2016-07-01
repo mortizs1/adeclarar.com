@@ -168,6 +168,11 @@ header nav a.active {
   display: inline-block;
 }
 
+.container1 .parrafo p{
+  text-align: left;
+
+}
+
 .container1{
   background: white;
   background-size: cover;
@@ -187,10 +192,22 @@ header nav a.active {
   text-align: justify;
 }
 
+.container1 .titulo{
+  background-color: #2dab98;
+  border-radius: 3px;
+  padding: 10px;
+}
+
 .container2 h1{
   text-align: center;
   display: inline-block;
   margin-left: 45%;
+}
+
+.container2 .titulo{
+  background-color: #2dab98;
+  border-radius: 3px;
+  padding: 10px;
 }
 
 .container2 h3{
@@ -214,29 +231,22 @@ header nav a.active {
 
 .container2 img{
   width: 20%;
+  margin-left: 210px;
+  display: inline-block;
+
+
+}
+
+.container2 .parrafo1{
   text-align: center;
   display: inline-block;
-  margin-left: 40%;
-}
-.container3{
-    background: white;
-    background-size: cover;
-    color: rgb(80, 80, 80);
-    text-align: center;
-    display: inline-block;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
-.container3 h2{
-  margin-top: 40px;
-  padding: 2%;
-  color: #8e8e8e;
-}
-
-.container3 p{
-    color: rgb(80, 80, 80);
-    text-align: center;
-    display: inline-block;
-    padding: 2%;
+.container2 .lista{
+  font-size:  17px;
+  line-height: 1.6;
 }
 
 .container5{
