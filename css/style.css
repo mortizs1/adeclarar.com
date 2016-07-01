@@ -249,6 +249,25 @@ header nav a.active {
   line-height: 1.6;
 }
 
+.container3 h3{
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.container3 p{
+  margin: 20px;
+  text-align: justify;
+}
+
+.container3 .titulo{
+background-color: #2dab98;
+border-radius: 3px;
+padding: 10px;
+text-align: center;
+font-family: 'Roboto', Arial sans-serif;
+color: rgb(80, 80, 80);
+}
+
 .container5{
     background:  url('../images/contacto.png') no-repeat center top;
     background-size: cover;
