@@ -1,0 +1,102 @@
+*{ box-sizing: border-box;}
+
+html{
+  font-family: 'Roboto', Arial sans-serif;
+}
+
+header {
+	width: 100%;
+	padding: 15px 0;
+	position: fixed;
+	background-color: rgba(48, 48, 48, 1);
+  z-index: 10!important;
+}
+
+a:focus, a:hover{
+  color: #25556c!important;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header nav a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 10px;
+	padding: 10px 15px;
+	font-size: 18px;
+}
+
+header nav a.active {
+	background: #20708a;
+	border-radius: 5px;
+}
+
+.navbar-header{
+  margin-left: 5px;;
+}
+
+.navbar-inverse{
+  position: fixed;
+}
+
+.container2 h1{
+  text-align: center;
+  display: inline-block;
+  margin-left: 45%;
+}
+
+.container2 .titulo{
+color: #3d4042;
+}
+
+.container2 h3{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container2 p{
+  text-align: center;
+  display: inline-block;
+}
+
+.container2{
+  background: whitesmoke;
+  background-size: cover;
+  color: rgb(80, 80, 80);
+  text-align: justify;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.container2 img{
+  width: 20%;
+  margin-left: 210px;
+  display: inline-block;
+}
+
+.container2 .parrafo1{
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.container2 .lista{
+  font-size:  17px;
+  line-height: 1.8;
+}
+
+.container2 .links{
+  line-height: 1.8;
+}
+
+footer{
+  background: #20708a;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 18px;
+}

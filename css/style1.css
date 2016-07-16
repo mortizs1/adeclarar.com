@@ -4,9 +4,6 @@ html{
   font-family: 'Roboto', Arial sans-serif;
 }
 
-
-
-
 header {
 	width: 100%;
 	padding: 15px 0;
@@ -44,11 +41,6 @@ header nav a.active {
   margin-left: 5px;;
 }
 
-
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
-
-}
-
 .navbar-inverse{
   position: fixed;
 }
@@ -71,7 +63,7 @@ header nav a.active {
 .home-wrapper{
   font-family: 'Roboto', Arial sans-serif;
   font-size: 16px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background.jpeg') no-repeat center top;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/gente.png') no-repeat center top;
   background-size: cover;
   color: #ffffff;
   background-attachment: fixed;
@@ -141,127 +133,6 @@ header nav a.active {
   background-color: rgb(68, 138, 201);
   cursor: pointer;
   color: white;
-}
-
-.container1 h2{
-  text-align: center;
-}
-
-.container1 p{
-  text-align: center;
-  display: inline-block;
-}
-
-.container1 .parrafo p{
-  text-align: left;
-
-}
-
-.container1{
-  background: white;
-  background-size: cover;
-  color: rgb(80, 80, 80);
-  text-align: justify;
-}
-
-.container1 table{
-  text-align: center;
-  padding: 20px;
-  border: 2px solid rgb(219, 219, 219);
-}
-
-.container1 #documentos ol, ul, p, li{
-  line-height: 2;
-  font-size: 18px;
-  text-align: justify;
-}
-
-.container1 .titulo{
-  background-color: #2dab98;
-  border-radius: 3px;
-  padding: 10px;
-}
-
-.container2 h1{
-  text-align: center;
-  display: inline-block;
-  margin-left: 45%;
-}
-
-.container2 .titulo{
-  background-color: #2dab98;
-  border-radius: 3px;
-  padding: 10px;
-}
-
-.container2 h3{
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.container2 p{
-  text-align: center;
-  display: inline-block;
-}
-
-.container2{
-  background: whitesmoke;
-  background-size: cover;
-  color: rgb(80, 80, 80);
-  text-align: justify;
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
-.container2 img{
-  width: 20%;
-  margin-left: 210px;
-  display: inline-block;
-
-
-}
-
-.container2 .parrafo1{
-  text-align: center;
-  display: inline-block;
-  font-size: 20px;
-  line-height: 1.5;
-}
-
-.container2 .lista{
-  font-size:  17px;
-  line-height: 1.6;
-}
-
-.container3 {
-  background: white;
-  background-size: cover;
-
-}
-
-.container3 h3{
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-.container3 p{
-  margin: 20px;
-  text-align: justify;
-
-}
-
-.container3 .titulo{
-background-color: #2dab98;
-border-radius: 3px;
-padding: 10px;
-text-align: center;
-font-family: 'Roboto', Arial sans-serif;
-color: rgb(80, 80, 80);
-}
-
-.container5{
-    background:  url('../images/contacto.png') no-repeat center top;
-    background-size: cover;
 }
 
 footer{
